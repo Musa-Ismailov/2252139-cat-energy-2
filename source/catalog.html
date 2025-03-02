@@ -14,10 +14,17 @@
     <div class="container">
       <nav class="main-nav">
         <a class="main-nav__logo-link" href="#"> <!-- узнать как сделать одной фоткой  -->
-          <img class="header__logo-img" src="#" alt="логотип сайта" width="33" height="38">
+          <picture>
+            <source media="(min-width: 1200px)" width="70" height="59" type="image/svg+xml" srcset="images/cat-logo-desktop.svg">
+            <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/cat-logo-tablet.svg">
+            <img class="header__logo-img" src="images/cat-logo-mobile.svg" alt="логотип сайта" width="33" height="38">
+          </picture>
         </a>
         <a class="header__logo-text-link" href="#">
-          <img class="header__logo-text logo-text" src="#" alt="текстовый логотип сайта" width="101" height="18">
+          <picture>
+            <source media="(min-width:1200px)" width="118" height="21" type="image/svg+xml" srcset="images/cat-logo-text-desktop.svg">
+            <img class="header__logo-text logo-text" src="images/cat-logo-text.svg" alt="текстовый логотип сайта" width="101" height="18">
+          </picture>
         </a> <!-- узнать как сделать одной фоткой  -->
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">
@@ -52,7 +59,10 @@
         </h1>
         <ul class="catalog-products__list">
           <li class="catalog-products__product-card product-card">
-            <img class="catalog-products__img-mini" src="#" width="68" height="86" alt="изображение корма для котов с курицей">
+            <picture>
+              <source media="(min-width:768px)" width="161" height="172" srcset="images/catalog-cat-feed-chicken500@1x.png 1x, images/catalog-cat-feed-chicken500@2x.png 2x">
+              <img class="catalog-products__img-mini" src="images/catalog-cat-feed-chicken500-mobile@1x.png" width="68" height="86" alt="изображение корма для котов с курицой" srcset="images/catalog-cat-feed-chicken500-mobile@2x.png 2x" type="image/png">
+            </picture>
             <h3 class="product-card__title">
               Cat Energy
               PRO
@@ -89,7 +99,10 @@
             </button>
           </li>
           <li class="catalog-products__product-card product-card">
-            <img class="catalog-products__img" src="#" width="84" height="100" alt="изображение корма для котов с курицей">
+            <picture>
+              <source media="(min-width:768px)" width="200" height="210" srcset="images/catalog-cat-feed-chicken1000@1x.png 1x, images/catalog-cat-feed-chicken1000@2x.png 2x">
+              <img class="catalog-products__img" src="images/catalog-cat-feed-chicken1000-mobile@1x.png" width="84" height="100" alt="изображение корма для котов с курицой" srcset="images/catalog-cat-feed-chicken1000-mobile@2x.png 2x">
+            </picture>
             <h3 class="product-card__title">
               Cat Energy
               PRO
@@ -126,7 +139,10 @@
             </button>
           </li>
           <li class="catalog-products__product-card product-card">
-            <img class="catalog-products__img-mini" src="#" width="68" height="86" alt="изображение корма для котов с курицей">
+            <picture>
+              <source media="(min-width:768px)" width="163" height="174" srcset="images/catalog-cat-feed-feesh500@1x.png 1x, images/catalog-cat-feed-feesh500@2x.png 2x">
+              <img class="catalog-products__img-mini" src="images/catalog-cat-feed-feesh500-mobile@1x.png" width="68" height="78" alt="изображение корма для котов с рыбой" srcset="images/catalog-cat-feed-feesh500-mobile@2x.png 2x">
+            </picture>
             <h3 class="product-card__title">
               Cat Energy
               PRO
@@ -163,7 +179,10 @@
             </button>
           </li>
           <li class="catalog-products__product-card product-card">
-            <img class="catalog-products__img-mini" src="#" width="68" height="86" alt="изображение корма для котов с курицей">
+            <picture>
+              <source media="(min-width:768px)" width="168" height="200" srcset="images/catalog-cat-feed-feesh1000@1x.png 1x, images/catalog-cat-feed-feesh1000@2x.png 2x" type="image/png">
+              <img class="catalog-products__img-mini" src="images/catalog-cat-feed-feesh1000-mobile@1x.png" width="84" height="100" alt="изображение корма для котов с рыбой" srcset="images/catalog-cat-feed-feesh1000-mobile@2x.png 2x">
+            </picture>
             <h3 class="product-card__title">
               Cat Energy
               PRO
@@ -200,7 +219,10 @@
             </button>
           </li>
           <li class="catalog-products__product-card product-card">
-            <img class="catalog-products__img-mini" src="#" width="68" height="86" alt="изображение корма для котов с курицей">
+            <picture>
+              <source media="(min-width:768px)" width="161" height="171" srcset="images/catalog-cat-feed-buckwheat500@1x.png 1x, images/catalog-cat-feed-buckwheat500@2x.png 2x" type="images/png">
+              <img class="catalog-products__img-mini" src="images/catalog-cat-feed-buckwheat500-mobile@1x.png" width="68" height="78" alt="изображение корма для котов с гречкой" srcset="images/catalog-cat-feed-buckwheat500-mobile@2x.png 2x">
+            </picture>
             <h3 class="product-card__title">
               Cat Energy
               SLIM
@@ -237,7 +259,10 @@
             </button>
           </li>
           <li class="catalog-products__product-card product-card">
-            <img class="catalog-products__img-mini" src="#" width="68" height="86" alt="изображение корма для котов с курицей">
+            <picture>
+              <source media="(min-width:768px)" width="168" height="200" srcset="images/catalog-cat-feed-buckwheat1000@1x.png 1x, images/catalog-cat-feed-buckwheat1000@2x.png 2x" type="image/png">
+              <img class="catalog-products__img-mini" src="images/catalog-cat-feed-buckwheat1000-mobile@1x.png" width="84" height="100" alt="изображение корма для котов с гречкой" srcset="images/catalog-cat-feed-buckwheat1000-mobile@2x.png 2x">
+            </picture>
             <h3 class="product-card__title">
               Cat Energy
               SLIM
@@ -274,7 +299,10 @@
             </button>
           </li>
           <li class="catalog-products__product-card product-card">
-            <img class="catalog-products__img-mini" src="#" width="68" height="86" alt="изображение корма для котов с курицей">
+            <picture>
+              <source media="(min-width:768px)" width="163" height="174" srcset="images/catalog-cat-feed-rice500@1x.png 1x, images/catalog-cat-feed-rice500@2x.png 2x">
+              <img class="catalog-products__img-mini" src="images/catalog-cat-feed-rice500-mobile@1x.png" width="72" height="84" alt="изображение корма для котов с курицей" srcset="images/catalog-cat-feed-rice500-mobile@2x.png 2x">
+            </picture>
             <h3 class="product-card__title">
               Cat Energy
               SLIM
@@ -431,7 +459,7 @@
   <footer class="main-footer">
     <div class="container">
       <a class="main-footer__logo-text-link logo-text" href="#">
-        <img class="main-footer__logo-text" src="#" alt="текстовый логотип сайта" width="101" height="18">
+        <img class="main-footer__logo-text" src="images/cat-logo-text-footer.svg" alt="текстовый логотип сайта" width="128" height="24">
       </a>
       <ul class="social-list main-footer__social-list">
         <li class="social-list__item">
@@ -452,7 +480,7 @@
       </ul>
       <a class="main-footer__logo-link main-footer-logo-link">
         HTML Academy
-        <img class="main-footer__logo-academy" src="#" width="27" height="34">
+        <img class="main-footer__logo-academy" src="images/лого-html.svg" width="27" height="34" alt="логотип академии">
       </a>
     </div>
   </footer>
